@@ -1,7 +1,7 @@
 # Bacon Graybeards
 Brief CDA "Pire2Pire"
 
-## Table des matière
+## Table des matières
 1. [Intro](#Intro)
 2. [Authentification et Mots de passe](#authentification-et-mots-de-passe)  
    2.1. [Définition](#définition)  
