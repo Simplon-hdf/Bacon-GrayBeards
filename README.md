@@ -9,9 +9,9 @@ Brief CDA "Pire2Pire"
    2.3. [Différents facteurs d'authentification](#différents-facteurs-dauthentification)  
    2.4. [Quelques recommandations d'authentification](#quelques-recommandations-concernant-lauthentification)
 3. [HTTPS & CORS](#https--cors)
-    3.1 [HTTP ou HTTPS](#http-ou-https)
-    3.2 [Méthodes](#méthodes)
-    3.3 [Les Headers](#les-headers)
+    3.1. [HTTP ou HTTPS](#http-ou-https)
+    3.2. [Méthodes](#méthodes)
+    3.3. [Les Headers](#les-headers)
 
 ##	**Intro**
 ------------------------------------
