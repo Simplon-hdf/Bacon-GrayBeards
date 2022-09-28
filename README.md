@@ -5,9 +5,13 @@ Brief CDA "Pire2Pire"
 1. [Intro](#Intro)
 2. [Authentification et Mots de passe](#authentification-et-mots-de-passe)  
    2.1. [Définition](#définition)  
-   2.2. [Authentification simple & multifacteurs](#authentification-simple-et-multifacteurs)  
+   2.2. [Authentification simple & multifacteurs](#authentification-simple--multifacteurs)  
    2.3. [Différents facteurs d'authentification](#différents-facteurs-dauthentification)  
    2.4. [Quelques recommandations d'authentification](#quelques-recommandations-concernant-lauthentification)
+3. [HTTPS & CORS](#https--cors)
+    3.1 [HTTP ou HTTPS](#http-ou-https)
+    3.2 [Méthodes](#méthodes)
+    3.3 [Les Headers](#les-headers)
 
 ##	**Intro**
 ------------------------------------
@@ -45,3 +49,37 @@ L’authentification est un mécanisme faisant intervenir deux entités distinct
 - Utiliser un coffre-fort de mots de passe.
 
 ---------------------
+##	**HTTPS & CORS**
+
+###	**HTTP ou HTTPS**
+- HTTP (Hypertext Transfer Protocol) désigne un protocole de communication entre un client et un serveur.
+- HTTPS ou Hypertext Transfer Protocol Secure, il utilise HTTP et SSL qui permet de crypter et de décrypter des informations sensibles.
+
+###	**Méthodes**
+- **GET**
+    - Permet de recevoir des informations
+- **POST**
+    - Soumet des données au serveur 
+- **PUT**
+    - Sauvegarde des modifications de données au serveur
+- **DELETE**
+    - Supprime des données
+- **HEAD**
+    - Reçoit des informations du header (en-tête) de la page
+
+###	**Les Headers**
+- Les headers contiennent des informations sur les requêtes et réponses HTTP
+
+###	**Code Status**
+- **100**
+    - Informations
+- **200**
+    - Action réussie
+- **300**
+    - Redirections
+- **400**
+    - Erreur coté client
+- **500**
+    - Erreur côté serveur
+
+
