@@ -8,11 +8,11 @@ Brief CDA "Pire2Pire"
    2.2. [Authentification simple & multifacteurs](#authentification-simple--multifacteurs)  
    2.3. [Différents facteurs d'authentification](#différents-facteurs-dauthentification)  
    2.4. [Quelques recommandations d'authentification](#quelques-recommandations-concernant-lauthentification)
-3. [HTTPS & CORS](#https--cors)
-    3.1. [HTTP ou HTTPS](#http-ou-https)
-    3.2. [Méthodes](#méthodes)
-    3.3. [Les Headers](#les-headers)
-
+3. [HTTPS & CORS](#https--cors)  
+    3.1. [HTTP ou HTTPS](#http-ou-https)  
+    3.2. [Méthodes](#méthodes)  
+    3.3. [Les Headers](#les-headers)  
+    3.4. [CORS](#cors)
 ##	**Intro**
 ------------------------------------
 ##	**Authentification et Mots de passe**
@@ -67,6 +67,8 @@ L’authentification est un mécanisme faisant intervenir deux entités distinct
 - **HEAD**
     - Reçoit des informations du header (en-tête) de la page
 
+![Status Code](./assets/methods.png)
+
 ###	**Les Headers**
 - Les headers contiennent des informations sur les requêtes et réponses HTTP
 
@@ -81,5 +83,12 @@ L’authentification est un mécanisme faisant intervenir deux entités distinct
     - Erreur coté client
 - **500**
     - Erreur côté serveur
+![Status Code](./assets/statusCode.png)
+
+###	**CORS**
+- CORS ou Cross-origin Ressource Sharing est un mécanisme qui autorise un site sur une URL à faire une requête de donnée sur une autre URL.
+![Status Code](./assets/CORS.png)
+
+
 
 
