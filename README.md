@@ -87,6 +87,7 @@ L’authentification est un mécanisme faisant intervenir deux entités distinct
 
 ###	**CORS**
 - CORS ou Cross-origin Ressource Sharing est un mécanisme qui autorise un site sur une URL à faire une requête de donnée sur une autre URL.
+
 ![Status Code](./assets/CORS.png)
 
 
